@@ -3,10 +3,10 @@
 
 ## 1. Linux
 ` History
-` Commands
-` Poular linux based OS
-` Commands in linux
-- Linux file system and directory ```--
+  Commands
+ Poular linux based OS
+ Commands in linux
+ Linux file system and directory ---
 
 ## 2.Git
 - Introduction 
