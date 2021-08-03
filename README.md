@@ -32,6 +32,7 @@
 - Infrastructure
 ## Javascript
 - Introduction 
+- Tech Debt
 - Data Types
 - Variables
   - Hoisting
