@@ -43,7 +43,7 @@
   - Block scope
   - lexial scope 
 - copy by value
-- copy by refrence
+- copy by refren]ce
 - Functions
   - Expression
   - Declration and Assignment
@@ -54,8 +54,24 @@
   - pure Functions
   - Immediately Invoked Function(IIFE)/Self Executing Function(SEF)
   - Arrow functions
-  - prototype
-  - 
-  -  
-  - 
-  - 
+  - constructor and prototype
+  - String Methods
+  - Array Mthods
+  - Object Mthods
+   - Built in Functions 
+    - setTimeout() 
+    -  setInterval() 
+    -  parseInt()
+    -   parseFloat()
+  - JSON 
+  - New Javascript Features
+    - String literals
+    - Spread Opreator
+       - spread in function call
+       - spread with array literals
+       - spread with objects
+    - Destructuring array
+    - Destructuring objects
+    - Destructuring params
+  
+   
