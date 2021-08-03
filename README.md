@@ -49,8 +49,8 @@
   - Declration and Assignment
   - Hoisting
   - Higher order Functions
-    -Functions returning Functions
-    -Function passing as parametre to another functions
+      -Functions returning Functions
+      -Function passing as parametre to another functions
   - pure Functions
   - Immediately Invoked Function(IIFE)/Self Executing Function(SEF)
   - Arrow functions
