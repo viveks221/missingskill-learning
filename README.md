@@ -31,7 +31,7 @@
 - Dev Workflow
 - Infrastructure
 ## Javascript
--Introduction 
+- Introduction 
 - Data Types
 - Variables
   - Hoisting
