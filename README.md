@@ -43,7 +43,7 @@
   - Block scope
   - lexial scope 
 - copy by value
-- copy by refren]ce
+- copy by refrence
 - Functions
   - Expression
   - Declration and Assignment
@@ -56,8 +56,8 @@
   - Arrow functions
   - constructor and prototype
   - String Methods
-  - Array Mthods
-  - Object Mthods
+  - Array Methods
+  - Object Methods
    - Built in Functions 
      - setTimeout() 
      -  setInterval() 
