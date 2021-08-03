@@ -1,1 +1,8 @@
-## yo
+# History
+It was developed for Netscape 2, and became the ECMA-262 standard in 1997.
+
+
+
+# variables
+Variables are basically containers used for storing data. Javacript Variables are of Dynamic type i.e they are evaaluated on the runtime.Type is define on the fly <br>
+
