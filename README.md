@@ -2,7 +2,7 @@
 ## Topics
 
 ## 1. Linux
-* History
+``` History
 - Commands
 - Poular linux based OS
 - Commands in linux
@@ -14,8 +14,4 @@
 - Programming languages
 - Ip address
 - Ipv4 Classes
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
+
