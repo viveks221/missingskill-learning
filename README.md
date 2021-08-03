@@ -11,6 +11,6 @@
 - Introduction 
 - Git commands
 ## 3.Basic Building blocks of web
--Programming languages
--Ip address
--Ipv4 Classes
+- Programming languages
+- Ip address
+- Ipv4 Classes
