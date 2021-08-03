@@ -34,10 +34,28 @@
 -Introduction 
 - Data Types
 - Variables
+  - Hoisting
 - Type conversion and Type coercion
 - Truthy and Falsy Values
-- • Introduction to Linux
-• Why use Linux ?
-• Basic Linux Commands
-• Linux Commands With Flags
-• Linux File System
+- Logical Operators
+- Scopes
+  - Function scope
+  - Block scope
+  - lexial scope 
+- copy by value
+- copy by refrence
+- Functions
+  - Expression
+  - Declration and Assignment
+  - Hoisting
+  - Higher order Functions
+    -Functions returning Functions
+    -Function passing as parametre to another functions
+  - pure Functions
+  - Immediately Invoked Function(IIFE)/Self Executing Function(SEF)
+  - Arrow functions
+  - prototype
+  - 
+  -  
+  - 
+  - 
