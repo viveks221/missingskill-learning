@@ -2,7 +2,7 @@
 ## Topics
 
 ## 1. Linux
-- History
+* History
 - Commands
 - Poular linux based OS
 - Commands in linux
