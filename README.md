@@ -30,3 +30,14 @@
 - Project Manangement Tool
 - Dev Workflow
 - Infrastructure
+## Javascript
+-Introduction 
+- Data Types
+- Variables
+- Type conversion and Type coercion
+- Truthy and Falsy Values
+- • Introduction to Linux
+• Why use Linux ?
+• Basic Linux Commands
+• Linux Commands With Flags
+• Linux File System
