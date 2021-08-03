@@ -59,10 +59,10 @@
   - Array Mthods
   - Object Mthods
    - Built in Functions 
-    - setTimeout() 
-    -  setInterval() 
-    -  parseInt()
-    -   parseFloat()
+     - setTimeout() 
+     -  setInterval() 
+     -  parseInt()
+     -   parseFloat()
   - JSON 
   - New Javascript Features
     - String literals
