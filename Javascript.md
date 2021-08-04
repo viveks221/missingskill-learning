@@ -57,8 +57,21 @@
           
           
       ```
+      
+ ### Truthy and Falsy value
+   - There are only 5 falsy values except these 5 values all are truthy values
+    - 5 Falsy values are; 0, '', undefined, null, NaN
           
-    
+   ```javascript
+         
+             console.log(Boolean(0));           // output will  be false 
+             console.log(Boolean(undefined));  // output will  be false 
+             console.log(Boolean(null));        // output will  be false 
+             console.log(Boolean(Nan);         // output will  be false 
+             console.log(Boolean(''));          // output will  be false 
+             console.log(Boolean({}));           // output will  be True
+             console.log(Boolean([]));          // output will  be true  
+  ```    
     
 ### Scopes  
 The location where variable is defined dictates where we have access to that variable.
