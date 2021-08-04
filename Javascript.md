@@ -284,7 +284,29 @@ function
      b();
      
  ```
- #
+ # Built in functions in javascript
+   ### setTimeout()
+      -Used to delay the expression
+ ```javascript
+     let readEmail= function() {
+    var store_email =  prompt( " Enter your email adress");
+     }
+     setTimeout(readEmail, 5000 );  // promopt enter your email adreess after 5 seconds
+ ```  
+   ### setInterval()
+       - he setInterval() method calls a function or evaluates an expression at specified intervals (in milliseconds).
+        - The setInterval() method will continue calling the function until clearInterval() is called.
+        
+ ```javascript
+     let readEmail= function() {
+    var store_email =  prompt( " Enter your email adress");
+     }
+     setInterval(readEmail, 5000 );  // promopt enter your email adreess after everey 5 seconds
+ ```  
+        
+        
+     
+     
 
 
 
