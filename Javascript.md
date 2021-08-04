@@ -156,7 +156,17 @@ The location where variable is defined dictates where we have access to that var
       
    ```
    
- #  
+ # Logical Operator
+ 
+   | Operator | Description | |
+| ------------- | ------------- |  ------------- | 
+| && | Logical AND   |  Can not be redeclared    | 
+| // | Logical OR   |  Lexial scope              |
+| !   | Logical not  |      hlo                      |
+
+
+ 
+            |   
    
      
    
