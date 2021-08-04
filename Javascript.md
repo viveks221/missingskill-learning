@@ -1,3 +1,14 @@
+# Introduction
+ - JavaScript was invented by Brendan Eich in 1995.
+ -  It was developed for Netscape 2.
+ -  It was developed in 3 weels
+ -  javascript = java + livescript
+
+# Tech debt  
+  - ==  only check value of number not datatype. so === was introduce.
+  - typeof(null) = object : it was too late to make changes, ideally typeof(null)= null.
+
+
 # Data types
 - Basically there are 2 types of data types  
      - Primitive 
