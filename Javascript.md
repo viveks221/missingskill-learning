@@ -1,22 +1,37 @@
+# Data types
+- Basically there are 2 types of data types  
+     - Primitive 
+         - String : anything enclose in " " is a string
+         - Number
+         - Boolean : true or false
+         - Undefined : when variable is declared but we dont ssign any value then type of that variable is undefined
+         - Null   : empty/ zero
+         - Symbol
+     - Non-primitive 
+         -  Objects: objects are basically key value pairs
+         -  Array: arrrays are also objects here keys are the indices
+        
+
+
 
  # Variables
     Variables are containers which are used to store data. variables in javascript are dynamically type.
     i.e they are evaluated on the runtime.Type is defined on the fly
     
-  ### Rules for declaring a variable
+  ## Rules for declaring a variable
      - Variable names cannot contain spaces.
      - Variable names must begin with a letter, an underscore (_) or a dollar sign ($).
      - Variable names can only contain letters, numbers, underscores, or dollar sign
      -  Variable names are case-sensitive.
      -  certain words may not be used as variable names, because they have other meanings within JavaScript (reserved words)
          
-  ### There are 3 ways to declare a JavaScript variable:
+  ## There are 3 ways to declare a JavaScript variable:
      - using var 
      - using let 
      - using let
      
      
- ### diffrence between let, const , var         
+ ## diffrence between let, const , var         
   | var   | let | const |
 | ------------- | ------------- |  ------------- | 
 | Can be redeclared  | Can not  be redeclared   |  Can not be redeclared             | 
@@ -27,7 +42,7 @@
  
  
  
- ### Hoisting
+ # Hoisting
  When we declare a variable using the var keyword, the declaration of that variable 
  is put into the memory component of the browser during compile time. 
  That variable is hoisted in the memory. So, if we try to access that variable before its declaration, we won’t get an error.
@@ -41,7 +56,7 @@
    
    
    
- ### Type conversion and Type coercion
+ # Type conversion and Type coercion
   - when we manually convert from one type to another is caaled type conversion
       ```javascript
            let a= Number("10"); // manually converting string to a number
@@ -58,7 +73,7 @@
           
       ```
       
- ### Truthy and Falsy value
+ # Truthy and Falsy value
    - There are only 5 falsy values except these 5 values all are truthy values
     - 5 Falsy values are; 0, '', undefined, null, NaN
           
@@ -73,10 +88,10 @@
              console.log(Boolean([]));          // output will  be true  
   ```    
     
-### Scopes  
+# Scopes  
 The location where variable is defined dictates where we have access to that variable.
  Types of scope
-- Functional scope
+### Functional scope
     - Variables defined inside a function are not accessible from outside the function.
     - Variables declared with var, let and const are quite similar when declared inside a function.
     -  ```javascript
@@ -93,7 +108,7 @@ The location where variable is defined dictates where we have access to that var
             
       ```
    
-- Block scope 
+### Block scope 
    - variable declared by let const are block scoped. we can not acees them outside the block where they are defined.
       ```javascript
       function fruits() {
@@ -112,7 +127,7 @@ The location where variable is defined dictates where we have access to that var
      ```
      
      
-- Lexical scope
+### Lexical scope
    Inner function nested inside some parent function has acces to variables define inside the scope of its parent function.
    But the reverse is not true.
     ```javascript
