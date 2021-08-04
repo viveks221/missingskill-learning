@@ -18,3 +18,10 @@
 | nano < filename>        | used to change modify content of files |
 |git add .                | adds all files to the repository |
 | git push < remote name >  < branch name  > | push content of local machine to remote machine             | 
+| git branch < branch name> | creeate new branch |
+| git checkout  < branch name> |  shifts to specified branch |
+| git branch -D <branch_name>  |  deletes branch             |
+| git checkout -- < file name>  | used to recover deleted files |
+| git checkout < branch x> git merge < branch y> | merge y branch to x branch  |
+
+
