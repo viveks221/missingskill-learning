@@ -166,6 +166,33 @@ The location where variable is defined dictates where we have access to that var
 
 
 
+# Copy by value and Copy by refrence
+  ### All prmitive types are copy by value 
+     - Analogy of copy by value is xerox. Both the variable will exactly same
+     - changes made in one variable do not affects the other variable
+  ```javascript
+           var a="hello";
+           var b=a;
+           var a="bie";
+           console.log(a,b); // outbput bie hello. No change in b
+  ```
+        
+        
+  
+  ### All non primitive types are copy by refrence
+     - A variable assigned to an object stores not the object itself, but its “address in memory” – in other words “a reference” to it.
+     - changes made one variable will reflect  the other variable 
+```javascript
+            var abc={}
+            var cde=abc
+            abc.hlo="bie"
+            console.log(abc, cde)
+            // output will be {hlo: "bie"} , {hlo: "bie"}  changes made in abc affects cde
+           
+```
+#
+
+
 
 
 
