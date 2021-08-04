@@ -237,7 +237,8 @@ The location where variable is defined dictates where we have access to that var
        
  ```
    
-#
+# Higher order functions
+-Any functions which takes functions as prameter or return a function are called higher order functions
 
 
 
@@ -247,7 +248,8 @@ The location where variable is defined dictates where we have access to that var
 
 
 
-]
+
+
 
  
 
