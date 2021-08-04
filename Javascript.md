@@ -23,6 +23,15 @@
 | functional scoepe  | Lexical scope  |  Lexial scope            |    
 | can be re-initialised | can be re-initialised   |  can not be re-initialised        |  
  | Hoisted               |   do not get hoisted    |   do not get hoisted               |   
+ 
+ 
+ 
+ 
+ ### Hoisting
+ When we declare a variable using the var keyword, the declaration of that variable 
+ is put into the memory component of the browser during compile time. 
+ That variable is hoisted in the memory. So, if we try to access that variable before its declaration, we won’t get an error.
+ 
     ```javascript 
     
     var vivek = 8;
