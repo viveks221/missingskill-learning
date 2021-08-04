@@ -94,7 +94,7 @@ The location where variable is defined dictates where we have access to that var
 ### Functional scope
     - Variables defined inside a function are not accessible from outside the function.
     - Variables declared with var, let and const are quite similar when declared inside a function.
-    -  ```javascript
+  ```javascript
            
            function hi() {
            const vivek = "hello vivek";
@@ -105,8 +105,7 @@ The location where variable is defined dictates where we have access to that var
            hi();
             console.log(vivek, sanny, hemant); //  refrence error vivek sanny  hemant are not defined 
             
-            
-      ```
+  ```
    
 ### Block scope 
    - variable declared by let const are block scoped. we can not acees them outside the block where they are defined.
