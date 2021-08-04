@@ -160,9 +160,13 @@ The location where variable is defined dictates where we have access to that var
  
    | Operator | Description | |
 | ------------- | ------------- |  ------------- | 
-| && | Logical AND   |  Can not be redeclared    | 
-| // | Logical OR   |  Lexial scope              |
-| !   | Logical not  |      hlo                      |
+| && | Logical AND   |  a&&b output is true when both a and b are true    | 
+| // | Logical OR   |  a//b output is true when either a or b is true            |
+| !   | Logical not  |   !a if is a true it changes it to false                    |
+
+
+
+
 
 
  
