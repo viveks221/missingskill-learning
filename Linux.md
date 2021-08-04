@@ -102,21 +102,17 @@
 
 | FILE     | Fullforms                       | 
 | :------- | :------------------------------ | 
-| /bin     | kernel is stored here          | 
-| ls       | binary files are stored h      | 
-| cat      |                                 | 
-| cp       | Copy                            |
-| mv       | Move                            | 
-| rm       | Remove                          | 
-| pwd      | Print Work Directory            | 
-| mkdir    | Make Directory                  | 
-| rmdir    | Remove Directory                | 
-| touch    | -                               | 
-| locate   | -                               | 
-| find     | -                               | 
-| grep     | Global Regular Expression Print | 
-| sudo     | SuperUser Do                    | 
-| df       | Disk Free                       | 
-| du       | Disk Usage                      |
-| head     | -                               | 
-| tail     | -                               | 
+| /boot    | kernel is stored here           | 
+| /bin     | binary files are stored here    | 
+| /sbin    | systtem binary are stored here used by sysadmin    | 
+| /home    |  user data is stored here       |
+| /var     | system level variables ares stored here            | 
+| /user    | user system resource 3rd party files stored here    | 
+| /root    | home folder for rrot user            | 
+| /tmp     | temorary files stored here      | 
+| /etc     | system config stored here               | 
+| /lib     | system and 3rd party libraries are stored here   | 
+| /mount   | cd dvd                               | 
+| /dev     | external devices mouse pendrive aatach here      | 
+| /opt     | user software are stored here   | 
+| /proc    |  memory and cpu info             | 
