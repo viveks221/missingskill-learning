@@ -76,6 +76,8 @@
     - Destructuring params
     
     
-    ''' javascript
+    ```javascript 
+    
     var vivek = 8;
+    console.log (vivek);
    
