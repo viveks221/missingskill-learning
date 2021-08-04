@@ -14,13 +14,90 @@
 
 
 # Commands in linux
+  ### ls
+     - use to view all files and folder in present working directory 
+     -flags 
+      - ls-l => list all file and folder in more descriptive way
+      - ls-h => list all file and folder in human readable format
+      -ls-t  => latest at top
+      -ls-r  => latest at bottom
+      
+  ### clear
+      - clear the terminal
+      - shortcut ctrl+c
+      
+  ### cat
+      -used for read/write from/in files
+      -Examples
+        - cat > vivek
+           hello vivek // write hello vivek in vivek file
+        - cat > vivek // overwrite file vivek
+        - cat > > vivek // updates content without removing previous content
+        
+ ### cd       
+     - change directory use to switch between directories
+     - examples
+        - cd -          => takes to user home folder
+        - cd ..         => one step back
+        - cd ../ ../    => takes 2 step back
+ 
+ 
+### mkdir < vivek>
+   - makes new directory vivek
+
+
+### rmdir <file_name> 
+   - only removes empty directory
+   
+  
+### rm-rf <file_name> 
+   - delete all files and directories in that folder
+ 
+ 
+ ### mv < source >   < destination >
+   -  move file from source to destination
+  
+###   cp < source >   < destination >
+   -  copy file from source to destination
+
+### echo < messege >
+   - prints messege
+
+### history
+ -- history of all commands used tii.
+
+### ping
+  - check connection in given server
+
+### which < command name >
+   - location of command ( where the command is stored)
+   
+   
+### wget < site name >
+  -  fetch site fromw site name.
+
+### ps
+  -- Dislay all running process
+  
+  
+ 
+
+
+    
+     
+           
+      
+ 
+      
+      
+     
 
 
 | Commands | Fullforms                       | Their Function                                                                    |
 | :------- | :------------------------------ | :-------------------------------------------------------------------------------- |
-| cd       | Change Directory                | To navigate through Linux files and directories                                   |
-| ls       | List                            | To view the contents of a directory                                               |
-| cat      | Concatenate                     | To list the contents of a file on the standard output (sdout)                     |
+| cd       | Change Directory                | moves to user home folder                                  |
+| ls       | List                            | use to view all files and folder in present working directory                                             |
+| cat      |                                 | read and write in/from files                     |
 | cp       | Copy                            | To copy files from the current directory to a different directory                 |
 | mv       | Move                            | To move files, although it can also be used to rename files                       |
 | rm       | Remove                          | To delete directories and the contents within them                                |
