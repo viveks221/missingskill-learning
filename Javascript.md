@@ -322,7 +322,14 @@ function
      let intNum= parseFloat(num);
      console.log(intNum); // output 10.
 ```
-  
+
+# JSON 
+ -javascript object notation
+ - JSON is a format for storing and transporting data.
+ - JSON is often used when data is sent from a server to a web page.
+ - The JSON syntax is derived from JavaScript object notation syntax, but the JSON format is text only. 
+ - Code for reading and generating JSON data can be written in any programming language.
+ 
   
   
     
