@@ -34,9 +34,22 @@
  
  ```javascript
    console.log (vivek);    // here ouput will not be undenfined as variable vivek gets hoisted
+  
    var vivek=8;
    
    ```
+   
+   
+   
+ ### Type conversion and Type coerion
+  - when we manually convert from one type to another is caaled type conversion
+      ```javascript
+           let a= "10":
+           let b= 10:
+      
+  - when javascript automatically covert types behind the scenes for us is  called type coercion
+  
+ 
     
     
 ### Scopes  
