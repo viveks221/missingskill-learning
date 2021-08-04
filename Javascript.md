@@ -303,6 +303,31 @@ function
      }
      setInterval(readEmail, 5000 );  // promopt enter your email adreess after everey 5 seconds
  ```  
+ 
+ # parseInt() Function
+   - it convert strings into integer value
+   - Not advise to use when dealing with airthmetic operators. 
+```javascript
+     const num ="10.9"
+     let intNum= parseInt(num);
+     console.log(intNum); // output 10
+```
+  
+  
+  # parseFloat() Function
+    - It converts string into floaating point numbers.
+    
+```javascript
+     const num ="10.9"
+     let intNum= parseFloat(num);
+     console.log(intNum); // output 10.
+```
+  
+  
+  
+    
+    
+    
         
         
      
