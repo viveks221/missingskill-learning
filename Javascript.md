@@ -77,7 +77,22 @@ The location where variable is defined dictates where we have access to that var
      
      
 - Lexical scope
-- 
+   Inner function nested inside some parent function has acces to variables define inside the scope of its parent function.
+   But the reverse is not true.
+    ```javascript
+   function fruits(){
+   const fruitsName=["apple","mango", "orange"]
+   console.log(hello);                                // at this there will be an reference eerror as parent can not acess varible declared in its child
+      function childOfFruits(){
+      var hello = "hi";
+      for(let name of fruitsName){
+      console.log( `eat it its full of nutrients, ${name}`);   // fruits name is defined in scope or fruits function. so it child can acees it 
+         }
+       }
+       childOfFruits();
+    }  
+      
+   ```
 
      
    
