@@ -84,17 +84,4 @@
     
     
     
-    # Variables
-    Variables are containers which are used to store data. variables in javascript are dynamically type i.e they are evaluated on the runtime.Type is defined on the fly.
-    ### Rules for declaring a variable
-          - Variable names cannot contain spaces.
-          - Variable names must begin with a letter, an underscore (_) or a dollar sign ($).
-          - Variable names can only contain letters, numbers, underscores, or dollar signs.
-          -  Variable names are case-sensitive.
-    
-    
-    ```javascript 
-    
-    var vivek = 8;
-    console.log (vivek);
    
