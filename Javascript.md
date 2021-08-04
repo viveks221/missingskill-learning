@@ -238,7 +238,33 @@ The location where variable is defined dictates where we have access to that var
  ```
    
 # Higher order functions
--Any functions which takes functions as prameter or return a function are called higher order functions
+    -Any functions which takes functions as prameter or return a function are called higher order functions
+
+```javascript
+function 
+
+
+
+
+
+
+```
+# Immediately invoked function(IIFE)/Self executing function(SEF):
+  -They only runs once.
+  - They are the anonymous function i.e without name
+
+```javascript
+     (function(){
+        console.log (" iife function");
+      })
+        (); // calling iife/anonymous function
+ 
+```
+
+# Pure functions
+ - 
+ 
+
 
 
 
