@@ -241,7 +241,31 @@ The location where variable is defined dictates where we have access to that var
     -Any functions which takes functions as prameter or return a function are called higher order functions
 
 ```javascript
-function 
+function score(func) {
+func();
+func();
+}
+  fuction param(){
+  var a= Math.floor(Math.ramdom() * 10);
+  console.log(a);
+  }
+  
+  score(param);   // function pass as prameter
+  
+  
+ // function returning another function
+   function double(params) {
+   console.log"(print" + params)
+       
+       function inner(){
+       console.log(params *2)
+       }
+       return inner ;
+  } 
+  var a==90;
+  double(a);
+  
+ 
 
 
 
