@@ -35,7 +35,50 @@
  ```javascript
    console.log (vivek);    // here ouput will not be undenfined as variable vivek gets hoisted
    var vivek=8;
+   
+   ```
     
+    
+### Scopes  
+The location where variable is defined dictates where we have access to that variable.
+ Types of scope
+- Functional scope
+    - Variables defined inside a function are not accessible from outside the function.
+    - Variables declared with var, let and const are quite similar when declared inside a function.
+    -  ```javascript
+           
+           function hi() {
+           const vivek = "hello vivek";
+           let sanny = "hello sanny";
+           var Hemant = "hello hemant" ;
+           console.log(vivek, sanny, hemant); // scope of let const var is limited to function only, we can not call them outside function
+           }
+           hi();
+            console.log(vivek, sanny, hemant); //  refrence error vive sanny  hemant are not defined 
+            ```
+   
+- Block scope 
+   - variable declared by let const are block scoped. we can not acees them outside the block where they are defined.
+      ```javascript
+      function fruits() {
+         if(true) {
+         var fruit1 ="apple";
+         let fruit2 =" banana"
+         const fruit3 ="orange"
+         console.log(fruit1,fruit2,fruit3);  //fruit2 fruit3 are scoped to this block only we cannot call outside this if {} block.
+         }
+          console.log(fruit1); // vaiable declred wit has function scope so we can call it inside function
+      console.log(fruit2);   // at this line there will refrence error as fruit2 varible is block scoped
+      console.log(fruit3);   // at this line there will refrence error as fruit3 varible is block scoped
+        
+      }
+      fruits();
+     ```
+     
+     
+- Lexical scope
+- 
+
      
    
    
