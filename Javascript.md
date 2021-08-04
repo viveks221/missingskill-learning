@@ -190,7 +190,15 @@ The location where variable is defined dictates where we have access to that var
             // output will be {hlo: "bie"} , {hlo: "bie"}  changes made in abc affects cde
            
 ```
-#
+# Functions
+ -A JavaScript function is a block of code designed to perform a particular task.
+ - In Javascript Function are reffred as first class citizen.
+ - A function can be assigned to a variable
+ - Function can return another function.
+ - Function can be passed as parameter to another function.
+ - ** Function declration gets hoisted **
+ - function gets override if you rediifine it.
+ 
 
 
 
