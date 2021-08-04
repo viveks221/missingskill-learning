@@ -284,6 +284,37 @@ function
      b();
      
  ```
+ 
+ # string methods
+   ### Length
+   ### slice()
+   ### replace()
+   ### toUpperCase()
+   ### tolowerCase()
+   ### concat()
+   ### trim()
+   ### charAt()
+```javascript
+ var a= " hello world ";
+ a.length
+ a.slice(0,6)
+ a.replace("hello", "hi")
+ a.toUpperCase()
+ a.tolowerCase()
+ a.concat(a, "1")
+ a.trim()
+ a.charAt(4)
+```
+ 
+ 
+
+    
+    
+    
+    
+    
+    
+    
  # Built in functions in javascript
    ### setTimeout()
       -Used to delay the expression
