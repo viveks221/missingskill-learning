@@ -285,7 +285,7 @@ function
      
  ```
  
- # string methods
+ # string methods 
    ### Length
    ### slice()
    ### replace()
@@ -296,23 +296,46 @@ function
    ### charAt()
 ```javascript
  var a= " hello world ";
- a.length
- a.slice(0,6)
- a.replace("hello", "hi")
- a.toUpperCase()
- a.tolowerCase()
- a.concat(a, "1")
- a.trim()
- a.charAt(4)
+ a.length // length= idicies+1
+ a.slice(0,6)  // slice from indice 0 to 5
+ a.replace("hello", "hi")  // replace hello with hi
+ a.toUpperCase // convert string to uppe case
+ a.tolowerCase // convert string to lower case
+ a.concat(a, "1") // concat hello world 1
+ a.trim()     // trim space from statr and end
+ a.charAt(4) // prints caharacter at indice 4
 ```
- 
- 
 
+# Array methods
+  -Popping
+   -The pop() method removes the last element from an array:
+```javascript 
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.pop();  // Removes "Mango" from fruits 
+```
+  # Pushing
+    -The push() method adds a new element to an array (at the end)
     
+ ```javascript   
     
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+    fruits.push("Kiwi");   // Adds "Kiwi" to fruits
+ ```
+ 
     
+  # concat
+   The concat() method creates a new array by merging (concatenating) existing arrays.
+   
+   
+```javascript  
+      const myGirls = ["vivek", "sanny"];
+      const myBoys = ["hemant", "abhay", "shantanu"];
+
+      // Concatenate (join) myGirls and myBoys
+      const myChildren = myGirls.concat(myBoys);
+```    
     
-    
+
     
     
  # Built in functions in javascript
