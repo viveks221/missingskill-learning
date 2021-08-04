@@ -271,6 +271,19 @@ function
      return x*x
      }
  ```
+ # ARROW FUNCTIONS
+ -Newer  version of definig functions
+ - syntactically compact alternative to a regular function expression
+ - It is function assignment so not gets hoisted
+ - if only 1 parameter is passed we can avoid paranthesis.
+
+```javascript
+     var b =() =>{
+     console.log("arrow");
+     }
+     b();
+     
+ ```
  #
 
 
