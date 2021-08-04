@@ -32,8 +32,10 @@
  is put into the memory component of the browser during compile time. 
  That variable is hoisted in the memory. So, if we try to access that variable before its declaration, we won’t get an error.
  
-    ```javascript 
+ ```javascript
+   console.log (vivek);    // here ouput will not be undenfined as variable vivek gets hoisted
+   var vivek=8;
     
-    var vivek = 8;
-    console.log (vivek);
+     
+   
    
