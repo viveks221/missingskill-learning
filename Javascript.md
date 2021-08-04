@@ -1,7 +1,7 @@
 # Introduction
  - JavaScript was invented by Brendan Eich in 1995.
  -  It was developed for Netscape 2.
- -  It was developed in 3 weels
+ -  It was developed in 3 weeks
  -  javascript = java + livescript
 
 # Tech debt  
