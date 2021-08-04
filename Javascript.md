@@ -41,15 +41,22 @@
    
    
    
- ### Type conversion and Type coerion
+ ### Type conversion and Type coercion
   - when we manually convert from one type to another is caaled type conversion
       ```javascript
-           let a= "10":
-           let b= 10:
+           let a= Number("10"); // manually converting string to a number
+           let b= 10;
+           console.log(a+b);   // otput =20
+           ```
       
   - when javascript automatically covert types behind the scenes for us is  called type coercion
-  
- 
+      ```javascript
+      let a= "10" ;    
+           let b= 10;
+   
+           console.log(a+b);   // one of the operand is string so javascript automatically converts other operands to string   // output 1010
+          ```
+          
     
     
 ### Scopes  
