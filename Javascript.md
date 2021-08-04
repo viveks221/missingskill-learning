@@ -93,6 +93,10 @@ The location where variable is defined dictates where we have access to that var
     }  
       
    ```
+   
+   
+   ### vivek photo
+   <img src="images/Saved Pictures/git.png">
 
      
    
