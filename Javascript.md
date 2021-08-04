@@ -199,6 +199,57 @@ The location where variable is defined dictates where we have access to that var
  - ** Function declration gets hoisted **
  - function gets override if you rediifine it.
  
+ 
+    ### Function declaration 
+```javascript
+     function fn_name(){
+
+
+       //here write the code to be executed
+
+     } 
+     fn-name(): // function call
+
+
+```
+
+### function hoisting
+   - Only function declration gets hoisted not assignment.
+  - it is quite similiar to variable hoisting.
+  - here complete block gets hoisted.
+
+```javascript
+      hello(); //  we can call hello function 
+       function hello(){
+       console.log(" hi");
+       }
+       
+ ```
+   
+   
+ ### Function assingnment
+```javascript
+       hello(); //  we cannot call hello function as here var a gets hoisted not the function 
+       console.log(a); // a can be calle as it gets hoisted
+       var a = function hello() {   // assignment of function to a variable
+       console.log(" hi");
+       }
+       
+ ```
+   
+#
+
+
+
+
+
+
+
+
+
+]
+
+ 
 
 
 
