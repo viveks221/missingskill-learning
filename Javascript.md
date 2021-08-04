@@ -47,15 +47,16 @@
            let a= Number("10"); // manually converting string to a number
            let b= 10;
            console.log(a+b);   // otput =20
-           ```
+      ```
       
   - when javascript automatically covert types behind the scenes for us is  called type coercion
       ```javascript
       let a= "10" ;    
            let b= 10;
-   
            console.log(a+b);   // one of the operand is string so javascript automatically converts other operands to string   // output 1010
-          ```
+          
+          
+      ```
           
     
     
@@ -74,8 +75,10 @@ The location where variable is defined dictates where we have access to that var
            console.log(vivek, sanny, hemant); // scope of let const var is limited to function only, we can not call them outside function
            }
            hi();
-            console.log(vivek, sanny, hemant); //  refrence error vive sanny  hemant are not defined 
-            ```
+            console.log(vivek, sanny, hemant); //  refrence error vivek sanny  hemant are not defined 
+            
+            
+      ```
    
 - Block scope 
    - variable declared by let const are block scoped. we can not acees them outside the block where they are defined.
