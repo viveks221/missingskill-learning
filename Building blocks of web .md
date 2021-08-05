@@ -78,8 +78,71 @@ Languages that programmers use to write code are called "high-level languages. <
  - Notepad++
  - repl.it  ( online ide)
   - codepen.io ( online ide)
-
+ 
+# Web servers
+ - local development : xampp etc
+ - production   :  Ngix etc.
+ 
+ # Http verbs
+   - Get : to get data
+   - Post :  send data
+   - Put :  replace data
+   - Delete : delete 
+   - Head : quering
    
+ # Http Headers
+  - http uses headers which pass information between cliend and server
+  - http status code
+     - 100 -199 : information response ( 100 : conyinue)
+     - 200-299 : sucess response
+     - 300-399 : used for migration
+     - 400-499 : client side error
+     - 500 series : server side error
+
+# Software license
+  - Apache 2.0
+  - MIT
+  - GPL ( linux)
+  - BSD
+  
+  
+# Database
+ -A database is a collection of information. data is stored in such a manner it could be easily accesed , udated.
+ - Relational database
+     - MySQL
+     - MariaBD
+     - postgreSQL
+- NON relational database
+     - MongoDB
+     - Redis ( faster)
+
+# cloud providers
+  - AWS
+  - Vultr
+  - google cloud
+  - digital ocean 
+  - Azure
+
+# code repository
+  - Git Hub
+  - git lab
+  - bit bucket
+  
+# Project management tool
+  - JIRA ( task)
+  - google sheet
+  - DOC
+  - Asana 
+  - Trello
+
+
+# Dev workflow
+  - Feature branch
+  - develop branch
+  - stage branch
+  - master branch 
+  -
+
  
  
  
