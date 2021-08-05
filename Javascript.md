@@ -357,8 +357,24 @@ func();
 
       // Concatenate (join) myGirls and myBoys
       const myChildren = myGirls.concat(myBoys);
-```    
-    
+ ```
+ 
+ # shift()
+   -The shift() method removes the first array element and "shifts" all other elements to a lower index.
+   
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();   // Removes "Banana" from fruits
+```
+
+# unshift()
+ - unshift() method adds a new element to an array at the beginning.
+
+```javascript
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");    // Adds "Lemon" to fruits in the begining
+
+```
 
     
     
