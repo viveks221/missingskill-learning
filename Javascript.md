@@ -452,6 +452,33 @@ console.log( a,b)  //  we only added 6 to a but it also gets added to b as array
  let d = [...c]
  c.push (10);
  console.log (c,d); // 10 is only added to c not added in d
+ 
+ ```
+ # spread with objects
+  - it works same as spread with arrays but there is a catch
+  <p> spread operator won’t do a deep copy, but it would take each of the elements in the original object/list
+ and would map them to a new position in memory. However, if one of the elements happened to be a reference to 
+ another object, it will simply make a copy of the reference into memory. </P> 
+ 
+```javascript
+
+let a = {
+username: "vivek" ,
+userid: " hlo" ,
+followers: {
+ id:"sanny"
+   }
+ }
+ let b={...a}
+ a.followers.id = " hemant",
+ console.log(a,b); // hera both and b will be same beacuse followers is of refrence type.so it makes copy of refrence in memory.  
+ a.username = "shantanu";  // since username is not refrence typecso changes made a will not reflect in b
+ console.log(a,b);
+ 
+```
+ 
+
+
 
 
 
