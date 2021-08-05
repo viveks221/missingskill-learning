@@ -432,7 +432,27 @@ fruits.unshift("Lemon");    // Adds "Lemon" to fruits in the begining
 var a=10
  var b =20
  console.log(` hello age of the person is ${a+b}.`); // hello age of the person is 30
+ 
 ```
+
+
+# Spread operator
+ -  It takes in an iterable (e.g an array) and expands it into individual elements.
+ - it is used when we want to create a copy non primitive and we dont want changes made in copy affects the original one.
+ 
+``` javascript
+let a = [ 1,2,3,4, 5]
+console.log(a);            // this will log entire array. output   [1, 2, 3, 4, 5]
+console.log(...a);         // this will log individual items of aray  output 1 2 3 4 5  
+let b = a;
+a.push(6);
+console.log( a,b)  //  we only added 6 to a but it also gets added to b as array are reference type
+ // we can prevent it by using spread operator
+ let c = [ 7,8,9]
+ let d = [...c]
+ c.push (10);
+ console.log (c,d); // 10 is only added to c not added in d
+
 
 
   
