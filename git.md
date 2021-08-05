@@ -14,7 +14,7 @@
 | git commit -m "messege" | register file to git            |
 | git log                 |  history of commit              |
 | git show [commit_SHA]   | show modiction done to particular commit             |
-|  git dif                | Show difference between previous chnages and new chnages.|
+|  git diff               | Show difference between previous chnages and new chnages.|
 | nano < filename>        | used to change modify content of files |
 |git add .                | adds all files to the repository |
 | git push < remote name >  < branch name  > | push content of local machine to remote machine             | 
@@ -23,5 +23,6 @@
 | git branch -D <branch_name>  |  deletes branch             |
 | git checkout -- < file name>  | used to recover deleted files |
 | git checkout < branch x> git merge < branch y> | merge y branch to x branch  |
+| git < fetch branch name >    |  access file from remote to local server  |
 
 
