@@ -63,8 +63,22 @@ Languages that programmers use to write code are called "high-level languages. <
    - 49100-65535 ( open ports)
    
  # web port  
-  - 
- 
+  - a port is a communication endpoint
+  - HTTP uses port 80
+  - HTTS uses port 443
+  
+ # POSTMAN
+  - Api testing
+  - api development
+  - backend development
+
+# Code Editors
+ - VS-code
+ - Atom
+ - Notepad++
+ - repl.it  ( online ide)
+  - codepen.io ( online ide)
+
    
  
  
