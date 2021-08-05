@@ -438,8 +438,8 @@ var a=10
 
 # Spread operator
  -  It takes in an iterable (e.g an array) and expands it into individual elements.
- - it is used when we want to create a copy non primitive and we dont want changes made in copy affects the original one.
- 
+ - it is used when we want to create a copy and we dont want changes made in copy affects the original one.
+ - if array consist items which are non primitive then changes made in that  non primitive will affect its copy too.
 ``` javascript
 let a = [ 1,2,3,4, 5]
 console.log(a);            // this will log entire array. output   [1, 2, 3, 4, 5]
