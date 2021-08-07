@@ -39,7 +39,7 @@
   ## There are 3 ways to declare a JavaScript variable:
      - using var 
      - using let 
-     - using let
+     - using const
      
      
  ## diffrence between let, const , var         
