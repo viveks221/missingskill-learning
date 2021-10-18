@@ -59,7 +59,7 @@
  That variable is hoisted in the memory. So, if we try to access that variable before its declaration, we won’t get an error.
  
  ```javascript
-   console.log (vivek);    // here ouput will not be undenfined as variable vivek gets hoisted
+   console.log (vivek);    
   
    var vivek=8;
    
