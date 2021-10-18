@@ -285,16 +285,8 @@ func();
  
 ```
 
-# Pure functions
- - Given the same input, will always return the same output.
- - It is advised to used pure functions.
- - Doesn’t modify the states of variables out of its scope.
+
  
- ```javascript
-     function square(x){
-     return x*x
-     }
- ```
  # ARROW FUNCTIONS
  -Newer  version of definig functions
  - syntactically compact alternative to a regular function expression
