@@ -100,7 +100,7 @@
      
 
 
-| FILE     | Fullforms                       | 
+| FILE     | description                     | 
 | :------- | :------------------------------ | 
 | /boot    | kernel is stored here           | 
 | /bin     | binary files are stored here    | 
